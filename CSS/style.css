@@ -1,0 +1,39 @@
+/* CSS Reset */
+body{
+  color: white;
+  margin: 0px;
+  padding: 0px;
+  background: url("../img/gym.jpg");    /*Height can be given to enable scrolling*/
+}
+.left{
+  display: inline-block;
+  border: 2px solid red;
+  position: absolute;
+  top: 20px;
+  left: 22px;
+}
+.mid{
+  display: block;
+  width: 36%;
+  margin: 20px auto;
+  border: 2px solid yellow;
+}
+.right{
+  position: absolute;
+  top: 20px;
+  right: 22px;
+  display: inline-block;
+  border: 2px solid rgb(168, 69, 85);
+}
+.navbar{
+  display: inline-block;
+}
+.navbar li{
+  display: inline-block;
+  font-size: 18px;
+}
+.navbar a{
+  color: white;
+  text-decoration: none;
+  padding: 34px 14px;
+}
